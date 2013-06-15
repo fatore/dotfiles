@@ -53,6 +53,3 @@ bindkey "^[OC"    forward-word      # CTRL+Right
 
 # Custom aliases
 alias ls='ls --color=auto'
-
-complete -sf sudo
-sudo mount -t vboxsf -o uid=1000 D_DRIVE /home/fatore/d

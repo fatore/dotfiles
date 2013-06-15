@@ -96,4 +96,3 @@ PS4="+ "
 unset safe_term match_lhs
 
 complete -sf sudo
-sudo mount -t vboxsf -o uid=1000 D_DRIVE /home/fatore/d 
