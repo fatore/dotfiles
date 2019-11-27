@@ -96,3 +96,7 @@ PS4="+ "
 unset safe_term match_lhs
 
 complete -sf sudo
+
+export http_proxy=socks5h://10.0.2.2:9870/
+export https_proxy=$http_proxy
+
